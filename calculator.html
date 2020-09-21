@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="style calculator.css" />
+
+<div class="container-fluid">
+    <div type="text" value="" class="calc-display">
+        <table id="" class="table" border="1">
+    </div>
+    <tr>
+        <td id="result" colspan="5" class="abox">
+        </td>
+    </tr>
+
+
+    <tr>
+        <td><button id="plus" class="btn btn-light plus" onClick="appendNumAndSymbol(this.id)" value="+">+</button></td>
+        <td><button id="minus" class="btn btn-light minus" onClick="appendNumAndSymbol(this.id)" value="-">-</button>
+        </td>
+        <td><button id="multiply" class="btn btn-light multiply" onClick="appendNumAndSymbol(this.id)"
+                value="×">×</button></td>
+        <td><button id="divide" class="btn btn-light divide" onClick="appendNumAndSymbol(this.id)" value="÷">÷</button>
+        </td>
+        <td><button id="squareRoot" class="btn btn-light squareroot" onClick="appendNumAndSymbol(this.id)"
+                value="√">√</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="unit"><button id="seven" class="btn btn-light btn btn-outline-secondary unit"
+                onClick="appendNumAndSymbol(this.id)" value="7">7</button></td>
+        <td class="unit"><button id="eight" class="btn btn-light btn btn-outline-secondary unit"
+                onClick="appendNumAndSymbol(this.id)" value="8">8</button></td>
+        <td class="unit"><button id="nine" class="btn btn-light btn btn-outline-secondary unit"
+                onClick="appendNumAndSymbol(this.id)" value="9">9</button></td>
+        <td rowspan="5" colspan="5"><button id="ans" onClick="appendNumAndSymbol(this.id)"
+                class="btn btn-primary ans">=</button></td>
+    </tr>
+
+    <tr>
+        <td class="unit"><button id="four" class="btn btn-light btn btn-border btn btn-outline-secondary unit"
+                value="4">4</button>
+        </td>
+        <td class="unit"><button id="five" class="btn btn-light btn btn-outline-secondary unit"
+                onClick="appendNumAndSymbol(this.id)" value="5">5</button></td>
+        <td class="unit"><button id="six" class="btn btn-light btn btn-outline-secondary unit"
+                onClick="appendNumAndSymbol(this.id)" value="6">6</button></td>
+    </tr>
+
+    <tr>
+        <td class="unit"><button id="one" class="btn btn-light btn btn-outline-secondary unit"
+                onClick="appendNumAndSymbol(this.id)" value="1">1</button></td>
+        <td class="unit"><button id="two" class="btn btn-light btn btn-outline-secondary  unit"
+                onClick="appendNumAndSymbol(this.id)" value="2">2</button></td>
+        <td class="unit"><button id="three" class="btn btn-light btn btn-outline-secondary  unit"
+                onClick="appendNumAndSymbol(this.id)" value="3">3</button></td>
+    </tr>
+
+    <tr>
+        <td class="unit"><button id="zero" class="btn btn-light btn btn-outline-secondary unit"
+                onClick="appendNumAndSymbol(this.id)" value="0">0</button></td>
+        <td class="unit"><button id="decimalPoint" class="btn btn-light btn btn-outline-secondary unit"
+                onClick="appendNumAndSymbol(this.id)" value=".">.</button></td>
+        <td class="unit"><button id="cls" class="btn btn-danger unit" onClick="appendNumAndSymbol(this.id)">AC</button>
+        </td>
+    </tr>
+
+
+    <script src="calculator.js"></script>
+    </table>
+
+</div>

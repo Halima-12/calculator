@@ -1,0 +1,62 @@
+.ans {
+    height: 400px;
+    width: 100%;
+}
+
+.abox {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.plus {
+    color: blue;
+    width: 80px;
+    height: 80px;
+    border: black;
+}
+.minus {
+    color: blue;
+    width: 80px;
+    height: 80px;
+    border: black;
+}
+
+.multiply {
+    color: blue;
+    width: 80px;
+    height: 80px;
+    border: black;
+}
+.divide {
+    color: blue;
+    width: 80px;
+    height: 80px;
+    border: black;
+}
+
+.table {
+    width: 416px;
+    text-align: center;
+}
+.container-fluid {
+    width: 900px;
+}
+.tablecontent {
+    width: 80px;
+    height: 80px;
+}
+.unit {
+    width: 80px;
+    height: 80px; 
+}
+.abox {
+    width: 80px;
+}
+.squareroot {
+    color: blue;
+    width: 80px;
+    height: 80px;
+    border: black;
+} 
+ r
